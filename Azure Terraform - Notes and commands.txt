@@ -1,0 +1,23 @@
+-- To Connect Azure , Login command
+	az login
+	
+-- To dispaly terraform workspaces
+	Azure terraform: Init
+	terraform workspace show
+
+-- To Create New Terraform workspace
+	terraform workspace new dev
+	terraform workspace new test
+	
+-- To set Terraform workspace
+
+	terraform workspace select test
+	
+-- State file, default stored in a local file called 'terraform.tfstate', in json format
+	Can be stored remotely
+		Azure Storage account
+		Terraform cloud
+		Preferred solutin
+	
+-- Terraform resources
+	Resources are saved in Terraform state
